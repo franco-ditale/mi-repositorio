@@ -163,6 +163,39 @@ ul li a {
         justify-content: center;
         flex-direction: column;
     }
+
+    .containerFooter h3 {
+        font-size: 30px;
+        justify-content: center;
+        display: flex;   
+    }
+
+    .containerFooter p {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footerNav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .footerNav ul li a {
+        font-size: 20px;
+    }
+
+    .footer-redes ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-redes ul li a {
+        font-size: 20px;
+    }
 }
 
 @media (min-width:426px) and (max-width:768px) {

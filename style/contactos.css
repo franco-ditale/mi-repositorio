@@ -15,7 +15,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 20px;
-        background-color:  rgb(64, 2, 2)
+        background-color: rgb(64, 2, 2)
     }
 
     h1 {
@@ -33,15 +33,9 @@
         color: white;
     }
 
-
-
-
-
-
-
     .formulario {
         width: 500px;
-        background-color:  rgb(64, 2, 2);
+        background-color: rgb(64, 2, 2);
         padding: 50px;
         margin: auto;
         margin-top: 100px;
@@ -98,48 +92,30 @@
         display: flex;
         justify-content: space-evenly;
         margin-top: 200px;
-    
-        
-      }
-      
-      .containerFooter h3 {
+
+
+    }
+
+    .containerFooter h3 {
         font-size: 40px;
         /* background */
         justify-content: center;
         display: flex;
         color: white;
-      }
-      
-      .containerFooter p {
+    }
+
+    .containerFooter p {
         font-size: 25px;
         display: flex;
         color: white;
-        
-      }
-      
-      .containerFooter a {
-        font-size: 25px;
-       color: white;
-       text-decoration: none;
+
     }
 
-
-
-
-
-
-
-    
-    
-
-
-
-
-
-
-
-
-
+    .containerFooter a {
+        font-size: 25px;
+        color: white;
+        text-decoration: none;
+    }
 
 
 
@@ -213,6 +189,39 @@
         flex-direction: column;
     }
 
+    .containerFooter h3 {
+        font-size: 30px;
+        justify-content: center;
+        display: flex;   
+    }
+
+    .containerFooter p {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footerNav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .footerNav ul li a {
+        font-size: 20px;
+    }
+
+    .footer-redes ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-redes ul li a {
+        font-size: 20px;
+    }
+
 
 }
 
@@ -234,7 +243,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 20px;
-        background-color:  rgb(64, 2, 2)
+        background-color: rgb(64, 2, 2)
     }
 
     h1 {
@@ -318,30 +327,30 @@
         display: flex;
         justify-content: space-evenly;
         margin-top: 200px;
-    
-        
-      }
-      
-      .containerFooter h3 {
+
+
+    }
+
+    .containerFooter h3 {
         font-size: 40px;
         /* background */
         justify-content: center;
         display: flex;
         color: white;
-      }
-      
-      .containerFooter p {
+    }
+
+    .containerFooter p {
         font-size: 25px;
         display: flex;
         color: white;
-        
-      }
-      
-      .containerFooter a {
+
+    }
+
+    .containerFooter a {
         font-size: 25px;
-       color: white;
-       text-decoration: none;
-       }
+        color: white;
+        text-decoration: none;
+    }
 
 
 
@@ -460,7 +469,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 20px;
-        background-color:  rgb(64, 2, 2)
+        background-color: rgb(64, 2, 2)
     }
 
     h1 {
@@ -475,7 +484,7 @@
     }
 
     ul li a {
-        color:white;
+        color: white;
     }
 
 
@@ -486,7 +495,7 @@
 
     .formulario {
         width: 500px;
-        background-color:  rgb(64, 2, 2);
+        background-color: rgb(64, 2, 2);
         padding: 50px;
         margin: auto;
         margin-top: 100px;
@@ -544,30 +553,30 @@
         display: flex;
         justify-content: space-evenly;
         margin-top: 200px;
-    
-        
-      }
-      
-      .containerFooter h3 {
+
+
+    }
+
+    .containerFooter h3 {
         font-size: 40px;
         /* background */
         justify-content: center;
         display: flex;
         color: white;
-      }
-      
-      .containerFooter p {
+    }
+
+    .containerFooter p {
         font-size: 25px;
         display: flex;
         color: white;
-        
-      }
-      
-      .containerFooter a {
+
+    }
+
+    .containerFooter a {
         font-size: 25px;
-       color: white;
-       text-decoration: none;
-       }
+        color: white;
+        text-decoration: none;
+    }
 
 
 
@@ -685,7 +694,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 20px;
-        background-color:  rgb(64, 2, 2);
+        background-color: rgb(64, 2, 2);
     }
 
     h1 {
@@ -711,7 +720,7 @@
 
     .formulario {
         width: 500px;
-        background-color:  rgb(64, 2, 2);
+        background-color: rgb(64, 2, 2);
         padding: 50px;
         margin: auto;
         margin-top: 100px;
@@ -769,27 +778,27 @@
         display: flex;
         justify-content: space-evenly;
         margin-top: 100px;
-      }
-      
-      .containerFooter h3 {
+    }
+
+    .containerFooter h3 {
         font-size: 40px;
         /* background */
         justify-content: center;
         display: flex;
         color: white;
-      }
-      
-      .containerFooter p {
+    }
+
+    .containerFooter p {
         font-size: 25px;
         display: flex;
-        color: white;    
-      }
-      
-      .containerFooter a {
+        color: white;
+    }
+
+    .containerFooter a {
         font-size: 25px;
-       color: white;
-       text-decoration: none;
-       }
+        color: white;
+        text-decoration: none;
+    }
 
 
 
