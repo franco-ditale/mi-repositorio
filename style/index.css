@@ -1,0 +1,562 @@
+body {
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* .c-item{
+    height: 800px;
+}
+.c-img{
+    height: 600px;
+} */
+
+
+
+
+
+
+
+/* inicio */
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(64, 2, 2);
+}
+
+h1 {
+    font-size: 45px;
+    color: white;
+}
+
+ul li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 25px;
+}
+
+ul li a {
+    color: white;
+}
+
+
+
+.imagenConteiner {
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    height: 220px;
+    margin: 55px;
+    justify-content: center;
+}
+
+
+div h2 {
+    font-size: 75px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+select {
+    width: 350px;
+    height: 50px;
+    margin: 30px;
+    margin-top: 40px;
+}
+
+.selectConteiner {
+    text-align: center;
+}
+
+.conteinerNav {
+    text-align: center;
+    display: inline-block;
+}
+
+
+.gridContainer {
+    display: flex;
+    background-color: white;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 450px;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0 75px;
+}
+
+.gridItem {
+    background-color: white;
+    width: 500px;
+    text-align: center;
+    border: 4px solid black;
+}
+
+.imagenMedidas {
+    width: 350px;
+
+    margin-top: -20px;
+}
+
+.titulo {
+    font-size: 25px;
+    margin-top: 10px;
+    background-color:black;
+    color: white;
+}
+
+.gridItem p {
+    font-size: 20px;
+    width: 100%;
+    margin-top: -15px;
+}
+
+
+.gridContainer2 {
+    display: flex;
+    background-color: white;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 450px;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0 75px;
+    padding: 50px 0px;
+}
+
+.gridItem2 {
+    background-color: white;
+    width: 500px;
+    text-align: center;
+
+    border: 3px solid black;
+}
+
+.imagenMedidas2 {
+    width: 350px;
+    margin-top: -20px;
+}
+
+.titulo2 {
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+.gridItem2 p {
+    font-size: 20px;
+    width: 100%;
+    margin-top: -15px;
+}
+
+
+
+.gridContainer3 {
+    display: flex;
+    background-color: white;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 450px;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0 75px;
+    padding: 50px 0px;
+}
+
+.gridItem3 {
+    background-color: white;
+    width: 500px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.imagenMedidas3 {
+    width: 350px;
+    margin-top: -20px;
+}
+
+.titulo3 {
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+.gridItem3 p {
+    font-size: 20px;
+    width: 100%;
+    margin-top: -15px;
+}
+
+
+
+.parrafoInicio {
+    font-size: 30px;
+    width: 85%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    background-color: rgb(64, 2, 2);
+    padding: 10px;
+}
+
+
+
+.containerFooter {
+    background-color: rgb(64, 2, 2);
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.containerFooter h3 {
+    font-size: 40px;
+    /* background */
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.containerFooter p {
+    font-size: 25px;
+    display: flex;
+    color: white;
+
+}
+
+.containerFooter a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+/* .footerNav ul li {
+flex-direction: column;
+display: flex;
+margin-bottom: -10px;
+} */
+
+
+@media (max-width:425px) {
+    .navBar {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .menu ul li {
+        list-style: none;
+    } 
+
+    .gridContainer {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        margin: 500px 5px;
+    }
+
+    .gridItem {
+        width: 385px;
+    }
+
+    .imagenMedidas{
+        width: 330px;
+        margin-left: 25px;
+    }
+
+    .gridItem p {
+        margin-top: -20px;
+        padding-bottom: 10px;
+    }
+
+    .gridContainer2 {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        margin: 1140px 5px;
+        
+    }
+    
+    .gridItem2 {
+        width: 385px;
+    }
+    
+    .imagenMedidas2 {
+        width: 330px;
+        margin-left: 25px;
+    }
+    
+    .gridItem2 p {
+        margin-top: -20px;
+        padding-bottom: 10px;
+    }
+
+
+    .gridContainer3 {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+       margin-top: -60px;
+       margin-left: 5px;
+       margin-bottom: 1200px;
+    }
+    
+    .gridItem3 {
+        width: 385px;
+    }
+    
+    .imagenMedidas3 {
+        width: 330px;
+        margin-left: 25px;  
+    }
+    
+    .gridItem3 p {
+        margin-top: -20px;
+        padding-bottom: 10px;
+    }
+
+    .parrafoInicio{
+        margin-top: -600px;
+        font-size: 25px;
+        width: 90%;
+        padding: 20px;
+    }
+
+
+
+    .containerFooter {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width:426px) and (max-width: 768px) {
+    .navBar {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .menu ul li {
+        list-style: none;
+    } 
+
+    .gridContainer {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        margin: 500px 180px;
+    }
+
+    .gridItem {
+        width: 385px;
+    }
+
+    .imagenMedidas{
+        width: 330px;
+        margin-left: 25px;
+    }
+
+    .gridItem p {
+        margin-top: -20px;
+        padding-bottom: 10px;
+    }
+
+    .gridContainer2 {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        margin: 1140px 180px;
+        
+    }
+    
+    .gridItem2 {
+        width: 385px;
+    }
+    
+    .imagenMedidas2 {
+        width: 330px;
+        margin-left: 25px;
+    }
+    
+    .gridItem2 p {
+        margin-top: -20px;
+        padding-bottom: 10px;
+    }
+
+
+    .gridContainer3 {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+       margin-top: -60px;
+       margin-left: 180px;
+       margin-bottom: 1200px;
+    }
+    
+    .gridItem3 {
+        width: 385px;
+    }
+    
+    .imagenMedidas3 {
+        width: 330px;
+        margin-left: 25px;  
+    }
+    
+    .gridItem3 p {
+        margin-top: -20px;
+        padding-bottom: 10px;
+    }
+
+    .parrafoInicio{
+        margin-top: -600px;
+        font-size: 25px;
+        width: 90%;
+        padding: 20px;
+    }
+
+
+
+    .containerFooter {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    } 
+
+}
+
+@media (min-width: 769px) and (max-width:1024px) {
+    .navBar {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .menu ul li {
+        list-style: none;
+    }
+
+    .gridContainer {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        margin: 500px 300px;
+    }
+
+    .gridItem {
+        width: 385px;
+    }
+
+    .imagenMedidas{
+        width: 330px;
+        margin-left: 25px;
+    }
+
+    .gridItem p {
+        margin-top: -20px;
+        padding-bottom: 10px;
+    }
+
+    .gridContainer2 {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        margin: 1140px 300px;
+        
+    }
+    
+    .gridItem2 {
+        width: 385px;
+    }
+    
+    .imagenMedidas2 {
+        width: 330px;
+        margin-left: 25px;
+    }
+    
+    .gridItem2 p {
+        margin-top: -20px;
+        padding-bottom: 10px;
+    }
+
+
+    .gridContainer3 {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+       margin-top: -60px;
+       margin-left: 300px;
+       margin-bottom: 1200px;
+    }
+    
+    .gridItem3 {
+        width: 385px;
+    }
+    
+    .imagenMedidas3 {
+        width: 330px;
+        margin-left: 25px;  
+    }
+    
+    .gridItem3 p {
+        margin-top: -20px;
+        padding-bottom: 10px;
+    }
+
+    .parrafoInicio{
+        margin-top: -600px;
+        font-size: 25px;
+        width: 90%;
+        padding: 20px;
+    }
+
+
+
+    .containerFooter {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    } 
+    
+    
+
+
+}
+
+
+
+ 
+
+
+
