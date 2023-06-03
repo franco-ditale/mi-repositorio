@@ -30,12 +30,13 @@ ul li a {
 }
 
 
-.container {
+
+/* .containerUno {
     display: flex;
     justify-content: center;
     margin: 20px;
     align-items: center;
-}
+} */
 
 .imagen{
     width: 400px;
@@ -44,10 +45,12 @@ ul li a {
     border: solid 10px black;
 }
 
-.containerParrafos {
+
+
+/* .containerParrafos {
     display: flex;
     justify-content: center;
-}
+} */
 
 .txt-1 {
     grid-template-columns: 1 fr 1fr;
@@ -55,7 +58,7 @@ ul li a {
     color:white;
     width: 400px;
     height: auto;
-    margin: -120px 100px;
+    margin: -100px 118px;
     border: 10px  black solid;
     font-size: 25px;
     text-align: center;
@@ -108,6 +111,40 @@ ul li a {
         list-style: none;
     }
 
+    .container {
+        margin-top: 100px;
+    }
+
+    .row{
+    display: flex;
+    flex-direction: row;        
+    }
+
+    .row{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .imagen{
+        width: 200px;
+        height: 150px;
+        border: 1px black solid;
+        margin: 0px;
+        width: 90%;
+    }
+
+    .txt-1 {
+        background-color: black;
+        width: 200px;
+        margin: 0 9px;
+        border: 5px black;
+        font-size: 20px;
+        height: auto;
+        width: 90%;
+    }
+
+    
 
 
 }
