@@ -98,7 +98,6 @@
 
     .containerFooter h3 {
         font-size: 40px;
-        /* background */
         justify-content: center;
         display: flex;
         color: white;
@@ -108,7 +107,6 @@
         font-size: 25px;
         display: flex;
         color: white;
-
     }
 
     .containerFooter a {
@@ -116,9 +114,6 @@
         color: white;
         text-decoration: none;
     }
-
-
-
 
     .navBar {
         display: flex;
@@ -192,7 +187,7 @@
     .containerFooter h3 {
         font-size: 30px;
         justify-content: center;
-        display: flex;   
+        display: flex;
     }
 
     .containerFooter p {
@@ -208,6 +203,7 @@
         justify-content: center;
         text-align: center;
     }
+
     .footerNav ul li a {
         font-size: 20px;
     }
@@ -218,6 +214,7 @@
         justify-content: center;
         text-align: center;
     }
+
     .footer-redes ul li a {
         font-size: 20px;
     }

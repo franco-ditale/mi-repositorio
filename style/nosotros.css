@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color:  rgb(64, 2, 2)
+    background-color: rgb(64, 2, 2)
 }
 
 h1 {
@@ -31,20 +31,16 @@ ul li a {
 }
 
 
-
-
-
 .centrarImagen {
     display: flex;
     justify-content: center;
-
 }
 
 .centrarImagen img {
     width: 420px;
     height: 250px;
     margin-top: 30px;
-    border: 3px solid  rgb(64, 2, 2);
+    border: 3px solid rgb(64, 2, 2);
 }
 
 .parrafoConteiner {
@@ -56,12 +52,10 @@ ul li a {
     width: 75%;
     font-size: 30px;
     color: white;
-    background-color:  rgb(64, 2, 2);
+    background-color: rgb(64, 2, 2);
     height: auto;
     padding: 10px;
     text-align: center;
-
-    
 }
 
 .imagenAbajo {
@@ -78,9 +72,6 @@ ul li a {
     justify-content: center;
 }
 
-
-
-
 .containerFooter {
     background-color: rgb(64, 2, 2);
     color: black;
@@ -88,28 +79,28 @@ ul li a {
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
-    
-  }
-  
-  .containerFooter h3 {
+
+}
+
+.containerFooter h3 {
     font-size: 40px;
-    /* background */
+
     justify-content: center;
     display: flex;
     color: white;
-  }
-  
-  .containerFooter p {
+}
+
+.containerFooter p {
     font-size: 25px;
     display: flex;
     color: white;
-    
-  }
-  
-  .containerFooter a {
+
+}
+
+.containerFooter a {
     font-size: 25px;
-   color: white;
-   text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -167,7 +158,7 @@ ul li a {
     .containerFooter h3 {
         font-size: 30px;
         justify-content: center;
-        display: flex;   
+        display: flex;
     }
 
     .containerFooter p {
@@ -183,6 +174,7 @@ ul li a {
         justify-content: center;
         text-align: center;
     }
+
     .footerNav ul li a {
         font-size: 20px;
     }
@@ -193,6 +185,7 @@ ul li a {
         justify-content: center;
         text-align: center;
     }
+
     .footer-redes ul li a {
         font-size: 20px;
     }

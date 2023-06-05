@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color:  rgb(64, 2, 2)
+    background-color: rgb(64, 2, 2)
 }
 
 h1 {
@@ -26,40 +26,25 @@ ul li {
 }
 
 ul li a {
-    color:white;
+    color: white;
 }
 
 
-
-/* .containerUno {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-    align-items: center;
-} */
-
-.imagen{
+.imagen {
     width: 400px;
     height: 300px;
     margin: 100px;
     border: solid 10px black;
 }
 
-
-
-/* .containerParrafos {
-    display: flex;
-    justify-content: center;
-} */
-
 .txt-1 {
     grid-template-columns: 1 fr 1fr;
     background-color: black;
-    color:white;
+    color: white;
     width: 400px;
     height: auto;
     margin: -100px 118px;
-    border: 10px  black solid;
+    border: 10px black solid;
     font-size: 25px;
     text-align: center;
 }
@@ -71,29 +56,29 @@ ul li a {
     display: flex;
     justify-content: space-evenly;
     margin-top: 200px;
-  }
-  
-  .containerFooter h3{
+}
+
+.containerFooter h3 {
     font-size: 40px;
     /* background */
     justify-content: center;
     display: flex;
     color: white;
-  }
-  
-  .containerFooter p {
+}
+
+.containerFooter p {
     font-size: 25px;
     display: flex;
     color: white;
-  }
-  
-  .containerFooter a {
-    font-size: 25px;
-   color: white;
-   text-decoration: none;
 }
 
-@media (max-width:425px){
+.containerFooter a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width:425px) {
     .navBar {
         display: flex;
         justify-content: center;
@@ -115,18 +100,18 @@ ul li a {
         margin-top: 100px;
     }
 
-    .row{
-    display: flex;
-    flex-direction: row;        
+    .row {
+        display: flex;
+        flex-direction: row;
     }
 
-    .row{
+    .row {
         display: flex;
         justify-content: space-around;
 
     }
 
-    .imagen{
+    .imagen {
         width: 200px;
         height: 150px;
         border: 1px black solid;
@@ -144,7 +129,7 @@ ul li a {
         width: 90%;
     }
 
-    
+
 
 
 }
