@@ -1,0 +1,346 @@
+body {
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* inicio */
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(64, 2, 2);
+  padding: 15px;
+}
+.navBar h1 {
+  font-size: 45px;
+  color: white;
+}
+.navBar ul li {
+  display: inline-block;
+  padding: 15px;
+  font-size: 25px;
+}
+.navBar ul li a {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.carousel {
+  margin: 150px 350px;
+  margin-top: -10px;
+}
+.carousel .d-block {
+  margin: 0px;
+  height: 600px;
+}
+
+.gridContainer {
+  display: flex;
+  background-color: white;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 450px;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 0 75px;
+  margin-top: -200px;
+}
+.gridContainer .gridItem {
+  background-color: white;
+  width: 500px;
+  text-align: center;
+  border: 4px solid black;
+}
+.gridContainer .gridItem .imagenMedidas {
+  width: 350px;
+  height: 220px;
+  margin: 25px;
+}
+.gridContainer .gridItem .titulo {
+  font-size: 25px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+}
+.gridContainer .gridItem p {
+  font-size: 20px;
+  width: 100%;
+  margin-top: -15px;
+}
+.gridContainer .gridItem a {
+  background: black;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.gridContainer .gridItem a:hover {
+  background-color: rgb(64, 2, 2);
+}
+
+.gridContainer2 {
+  display: flex;
+  background-color: white;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 550px;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 0 75px;
+  padding: 50px 0px;
+}
+.gridContainer2 .gridItem2 {
+  background-color: white;
+  width: 500px;
+  text-align: center;
+  border: 4px solid black;
+}
+.gridContainer2 .gridItem2 .imagenMedidas2 {
+  width: 350px;
+  height: 220px;
+  margin: 25px;
+}
+.gridContainer2 .gridItem2 .titulo2 {
+  font-size: 25px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+}
+.gridContainer2 .gridItem2 p {
+  font-size: 20px;
+  width: 100%;
+  margin-top: -15px;
+}
+.gridContainer2 .gridItem2 a {
+  background: black;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.gridContainer2 .gridItem2 a:hover {
+  background-color: rgb(64, 2, 2);
+}
+
+.gridContainer3 {
+  display: flex;
+  background-color: white;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 450px;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 0 75px;
+}
+.gridContainer3 .gridItem3 {
+  background-color: white;
+  width: 500px;
+  text-align: center;
+  border: 4px solid black;
+}
+.gridContainer3 .gridItem3 .imagenMedidas3 {
+  width: 350px;
+  height: 220px;
+  margin: 25px;
+}
+.gridContainer3 .gridItem3 .titulo3 {
+  font-size: 25px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+}
+.gridContainer3 .gridItem3 p {
+  font-size: 20px;
+  width: 100%;
+  margin-top: -15px;
+}
+.gridContainer3 .gridItem3 a {
+  background: black;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.gridContainer3 .gridItem3 a:hover {
+  background-color: rgb(64, 2, 2);
+}
+
+.parrafoInicio {
+  font-size: 30px;
+  width: 85%;
+  margin: auto;
+  color: white;
+  text-align: center;
+  background-color: rgb(64, 2, 2);
+  padding: 10px;
+  margin-top: 35px;
+}
+
+.containerFooter {
+  background-color: rgb(64, 2, 2);
+  color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.containerFooter h3 {
+  font-size: 40px;
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+.containerFooter p {
+  font-size: 25px;
+  display: flex;
+  color: white;
+}
+.containerFooter a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+/* nosotros */
+.centrarImagen {
+  display: flex;
+  justify-content: center;
+}
+.centrarImagen img {
+  width: 420px;
+  height: 250px;
+  margin-top: 100px;
+  border: 3px solid rgb(64, 2, 2);
+}
+
+.parrafoConteiner {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.parrafoConteiner .sobreNosotros {
+  width: 75%;
+  font-size: 30px;
+  color: white;
+  background-color: rgb(64, 2, 2);
+  height: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.imagenTexto {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 60px;
+}
+.imagenTexto .imagenAbajo {
+  width: 400px;
+  height: auto;
+  margin: 0px 120px;
+  margin-top: 60px;
+  border: 3px solid black;
+}
+
+/* sucursales */
+.sucursalesConteinerGeneral {
+  text-align: center;
+  justify-content: center;
+  padding: 0px 50px;
+  margin-top: 100px 0px;
+}
+.sucursalesConteinerGeneral .sucursalesConteiner {
+  background-color: rgb(64, 2, 2);
+  width: 500px;
+  height: 215px;
+  margin-top: 50px;
+  border: solid 5px;
+}
+.sucursalesConteinerGeneral .sucursalesConteiner h4 {
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+}
+.sucursalesConteinerGeneral .sucursalesConteiner p {
+  font-size: 20px;
+  margin: 20px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: black;
+  color: white;
+}
+
+/* novedades */
+.imagen {
+  width: 400px;
+  height: 300px;
+  margin: 100px;
+  border: solid 10px black;
+  display: inline;
+  justify-content: center;
+}
+
+.txt-1 {
+  grid-template-columns: 1 fr 1fr;
+  background-color: black;
+  color: white;
+  width: 400px;
+  height: auto;
+  margin: -100px 118px;
+  border: 10px black solid;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+/* contactos */
+.formulario {
+  width: 500px;
+  background-color: rgb(64, 2, 2);
+  padding: 50px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  display: block;
+  margin-bottom: 100px;
+}
+.formulario h5 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.formulario .control {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 405px;
+  border: solid 1px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.formulario .boton {
+  width: 100%;
+  border: none;
+  background-color: black;
+  color: beige;
+  height: 50px;
+  border-radius: 5px;
+}
+.formulario .consulta {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: solid 1px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  width: 405px;
+  height: 100px;
+}/*# sourceMappingURL=main.css.map */
