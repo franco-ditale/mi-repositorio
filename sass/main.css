@@ -3,7 +3,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-/* inicio */
+/* Menu Y Footer para todos */
 .navBar {
   display: flex;
   align-items: center;
@@ -25,6 +25,36 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.containerFooter {
+  background-color: rgb(64, 2, 2);
+  color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.containerFooter h3 {
+  font-size: 25px;
+  justify-content: center;
+  display: flex;
+  color: white;
+  margin-bottom: 10px;
+}
+.containerFooter p {
+  font-size: 15px;
+  display: flex;
+  color: white;
+  margin-top: 20px;
+}
+.containerFooter li {
+  list-style: none;
+}
+.containerFooter li a {
+  font-size: 15px;
+  color: white;
+}
+
+/* inicio */
 .carousel {
   margin: 150px 350px;
   margin-top: -10px;
@@ -36,7 +66,7 @@ body {
 
 .gridContainer {
   display: flex;
-  background-color: white;
+  background-color: #FFFFFF;
   gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
   height: 450px;
@@ -46,7 +76,7 @@ body {
   margin-top: -200px;
 }
 .gridContainer .gridItem {
-  background-color: white;
+  background-color: #FFFFFF;
   width: 500px;
   text-align: center;
   border: 4px solid black;
@@ -60,7 +90,7 @@ body {
   font-size: 25px;
   margin-top: 10px;
   background-color: black;
-  color: white;
+  color: #FFFFFF;
 }
 .gridContainer .gridItem p {
   font-size: 20px;
@@ -70,7 +100,7 @@ body {
 .gridContainer .gridItem a {
   background: black;
   padding: 5px;
-  color: white;
+  color: #FFFFFF;
   border-radius: 5px;
   text-decoration: none;
 }
@@ -80,7 +110,7 @@ body {
 
 .gridContainer2 {
   display: flex;
-  background-color: white;
+  background-color: #FFFFFF;
   gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
   height: 550px;
@@ -90,7 +120,7 @@ body {
   padding: 50px 0px;
 }
 .gridContainer2 .gridItem2 {
-  background-color: white;
+  background-color: #FFFFFF;
   width: 500px;
   text-align: center;
   border: 4px solid black;
@@ -104,7 +134,7 @@ body {
   font-size: 25px;
   margin-top: 10px;
   background-color: black;
-  color: white;
+  color: #FFFFFF;
 }
 .gridContainer2 .gridItem2 p {
   font-size: 20px;
@@ -114,7 +144,7 @@ body {
 .gridContainer2 .gridItem2 a {
   background: black;
   padding: 5px;
-  color: white;
+  color: #FFFFFF;
   border-radius: 5px;
   text-decoration: none;
 }
@@ -124,7 +154,7 @@ body {
 
 .gridContainer3 {
   display: flex;
-  background-color: white;
+  background-color: #FFFFFF;
   gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
   height: 450px;
@@ -133,7 +163,7 @@ body {
   margin: 0 75px;
 }
 .gridContainer3 .gridItem3 {
-  background-color: white;
+  background-color: #FFFFFF;
   width: 500px;
   text-align: center;
   border: 4px solid black;
@@ -147,7 +177,7 @@ body {
   font-size: 25px;
   margin-top: 10px;
   background-color: black;
-  color: white;
+  color: #FFFFFF;
 }
 .gridContainer3 .gridItem3 p {
   font-size: 20px;
@@ -157,7 +187,7 @@ body {
 .gridContainer3 .gridItem3 a {
   background: black;
   padding: 5px;
-  color: white;
+  color: #FFFFFF;
   border-radius: 5px;
   text-decoration: none;
 }
@@ -169,36 +199,10 @@ body {
   font-size: 30px;
   width: 85%;
   margin: auto;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   background-color: rgb(64, 2, 2);
   padding: 10px;
-  margin-top: 35px;
-}
-
-.containerFooter {
-  background-color: rgb(64, 2, 2);
-  color: black;
-  padding: 20px;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 50px;
-}
-.containerFooter h3 {
-  font-size: 40px;
-  justify-content: center;
-  display: flex;
-  color: white;
-}
-.containerFooter p {
-  font-size: 25px;
-  display: flex;
-  color: white;
-}
-.containerFooter a {
-  font-size: 25px;
-  color: white;
-  text-decoration: none;
 }
 
 /* nosotros */
@@ -221,7 +225,7 @@ body {
 .parrafoConteiner .sobreNosotros {
   width: 75%;
   font-size: 30px;
-  color: white;
+  color: #FFFFFF;
   background-color: rgb(64, 2, 2);
   height: auto;
   padding: 10px;
@@ -247,7 +251,7 @@ body {
   text-align: center;
   justify-content: center;
   padding: 0px 50px;
-  margin-top: 100px 0px;
+  margin-top: 100px;
 }
 .sucursalesConteinerGeneral .sucursalesConteiner {
   background-color: rgb(64, 2, 2);
@@ -257,7 +261,7 @@ body {
   border: solid 5px;
 }
 .sucursalesConteinerGeneral .sucursalesConteiner h4 {
-  background-color: white;
+  background-color: #FFFFFF;
   font-size: 20px;
   color: black;
   margin-top: 10px;
@@ -269,7 +273,7 @@ body {
   margin: 20px;
   font-family: "Times New Roman", Times, serif;
   background-color: black;
-  color: white;
+  color: #FFFFFF;
 }
 
 /* novedades */
@@ -285,7 +289,7 @@ body {
 .txt-1 {
   grid-template-columns: 1 fr 1fr;
   background-color: black;
-  color: white;
+  color: #FFFFFF;
   width: 400px;
   height: auto;
   margin: -100px 118px;
@@ -306,7 +310,7 @@ body {
   margin-top: 100px;
   border-radius: 5px;
   font-family: "Times New Roman", Times, serif;
-  color: white;
+  color: #FFFFFF;
   display: block;
   margin-bottom: 100px;
 }
@@ -315,7 +319,7 @@ body {
   margin-bottom: 20px;
 }
 .formulario .control {
-  background-color: white;
+  background-color: #FFFFFF;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -328,12 +332,12 @@ body {
   width: 100%;
   border: none;
   background-color: black;
-  color: beige;
+  color: #FFFFFF;
   height: 50px;
   border-radius: 5px;
 }
 .formulario .consulta {
-  background-color: white;
+  background-color: #FFFFFF;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -343,4 +347,448 @@ body {
   font-size: 20px;
   width: 405px;
   height: 100px;
+}
+
+/* inicio */
+@media (max-width: 425px) {
+  .navBar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .navBar .menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -15px;
+  }
+  .navBar .menu li {
+    list-style: none;
+  }
+  .carousel {
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    margin-right: 15px;
+  }
+  .carousel .d-block {
+    margin: 0px;
+    height: 380px;
+    margin-left: 8px;
+  }
+  .gridContainer {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin: 500px 10px;
+  }
+  .gridContainer .gridItem {
+    width: 385px;
+    margin-left: 10px;
+  }
+  .gridContainer .gridItem .imagenMedidas {
+    width: 330px;
+    margin-left: 25px;
+  }
+  .gridContainer .gridItem p {
+    margin-top: -20px;
+    padding-bottom: 10px;
+  }
+  .gridContainer2 {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin: 1210px 10px;
+  }
+  .gridContainer2 .gridItem2 {
+    width: 385px;
+    margin-left: 10px;
+  }
+  .gridContainer2 .gridItem2 .imagenMedidas2 {
+    width: 330px;
+    margin-left: 25px;
+  }
+  .gridContainer2 .gridItem2 p {
+    margin-top: -20px;
+    padding-bottom: 10px;
+  }
+  .gridContainer3 {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    /*  margin-top: 100px; */
+    margin-left: 10px;
+    margin-bottom: 1200px;
+  }
+  .gridContainer3 .gridItem3 {
+    width: 385px;
+    margin-left: 10px;
+  }
+  .gridContainer3 .gridItem3 .imagenMedidas3 {
+    width: 330px;
+    margin-left: 25px;
+  }
+  .gridContainer3 .gridItem3 p {
+    margin-top: -20px;
+    padding-bottom: 10px;
+  }
+  .parrafoInicio {
+    margin-top: -600px;
+    font-size: 25px;
+    padding: 20px;
+    margin-right: 30px;
+  }
+  .containerFooter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .containerFooter h3 {
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+  }
+  .containerFooter p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .containerFooter .footerNav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 35px;
+    list-style: none;
+  }
+  .containerFooter .footerNav ul a {
+    font-size: 20px;
+  }
+  .containerFooter .footer-redes ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 35px;
+    list-style: none;
+  }
+  .containerFooter .footer-redes ul a {
+    font-size: 20px;
+  }
+}
+/* nosotros */
+@media (max-width: 425px) {
+  .navBar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .navBar .menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -15px;
+  }
+  .navBar .menu li {
+    list-style: none;
+  }
+  .centrarImagen img {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 400px;
+    height: 220px;
+    margin-top: 50px;
+  }
+  .sobreNosotros {
+    font-size: 25px;
+    text-align: center;
+  }
+  .imagenTexto {
+    flex-direction: column;
+  }
+  .imagenTexto .imagenAbajo {
+    margin: 0;
+    margin-top: 50px;
+    width: 400px;
+    height: auto;
+    margin-left: 13px;
+  }
+  .containerFooter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .containerFooter h3 {
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+  }
+  .containerFooter p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .containerFooter .footerNav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 35px;
+    list-style: none;
+  }
+  .containerFooter .footerNav ul a {
+    font-size: 20px;
+  }
+  .containerFooter .footer-redes ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 35px;
+    list-style: none;
+  }
+  .containerFooter .footer-redes ul a {
+    font-size: 20px;
+  }
+}
+/* sucursales */
+@media (max-width: 425px) {
+  .navBar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .navBar .menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -15px;
+  }
+  .navBar .menu li {
+    list-style: none;
+  }
+  .sucursalesConteinerGeneral {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -25px;
+  }
+  .sucursalesConteinerGeneral .sucursalesConteiner {
+    width: 350px;
+    margin-top: 75px;
+  }
+  .containerFooter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .containerFooter h3 {
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+  }
+  .containerFooter p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .containerFooter .footerNav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 35px;
+    list-style: none;
+  }
+  .containerFooter .footerNav ul a {
+    font-size: 20px;
+  }
+  .containerFooter .footer-redes ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 35px;
+    list-style: none;
+  }
+  .containerFooter .footer-redes ul a {
+    font-size: 20px;
+  }
+}
+/* novedades */
+@media (max-width: 425px) {
+  .navBar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .navBar .menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -15px;
+  }
+  .navBar .menu li {
+    list-style: none;
+  }
+  .container {
+    margin-top: 100px;
+  }
+  .container .imagen {
+    width: 200px;
+    height: 150px;
+    border: 1px black solid;
+    margin: 0px;
+    width: 90%;
+  }
+  .container .txt-1 {
+    background-color: black;
+    width: 200px;
+    margin: 0 9px;
+    border: 5px black;
+    font-size: 20px;
+    height: auto;
+    width: 90%;
+    padding: 10px;
+  }
+  .imagen {
+    width: 200px;
+    height: 150px;
+    border: 1px black solid;
+    margin: 0px;
+    width: 90%;
+  }
+  .txt-1 {
+    background-color: black;
+    width: 200px;
+    margin: 0 9px;
+    border: 5px black;
+    font-size: 20px;
+    height: auto;
+    width: 90%;
+  }
+  .containerFooter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .containerFooter h3 {
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+  }
+  .containerFooter p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .containerFooter .footerNav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 35px;
+    list-style: none;
+  }
+  .containerFooter .footerNav ul a {
+    font-size: 20px;
+  }
+  .containerFooter .footer-redes ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 35px;
+    list-style: none;
+  }
+  .containerFooter .footer-redes ul a {
+    font-size: 20px;
+  }
+}
+/* contacto */
+@media (max-width: 425px) {
+  .navBar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .navBar .menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -15px;
+  }
+  .navBar .menu li {
+    list-style: none;
+  }
+  .formulario {
+    width: 350px;
+    margin: 37px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .formulario h5 {
+    font-size: 20px;
+    padding: 0px 10px;
+  }
+  .formulario .control {
+    width: 275px;
+    margin-left: -10px;
+  }
+  .formulario .consulta {
+    width: 275px;
+    margin-left: -10px;
+  }
+  .containerFooter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .containerFooter h3 {
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+  }
+  .containerFooter p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .containerFooter .footerNav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 35px;
+    list-style: none;
+  }
+  .containerFooter .footerNav ul a {
+    font-size: 20px;
+  }
+  .containerFooter .footer-redes ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 35px;
+    list-style: none;
+  }
+  .containerFooter .footer-redes ul a {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,33 @@
+.containerFooter {
+    background-color: rgb(64, 2, 2);
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+    h3 {
+        font-size: 25px;
+        justify-content: center;
+        display: flex;
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 15px;
+        display: flex;
+        color: white;
+        margin-top: 20px;
+
+    }
+
+    li{ 
+        list-style: none;
+        a {
+            font-size: 15px;
+            color: white;       
+        } 
+    }
+    
+}
