@@ -2,7 +2,7 @@ body {
     background-color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
- 
+
 @import 'vars';
 /* Menu Y Footer para todos */
 @import 'header';
@@ -38,33 +38,22 @@ body {
         border: 4px solid black;
 
         .imagenMedidas {
-            width: 350px;
-            height: 220px;
-            margin: 25px;           
+            @include imagenesMedidas-mixin;
         }
 
         .titulo {
-            font-size: 25px;
-            margin-top: 10px;
-            background-color: black;
-            color:$colorSecundario;;
+            @include titulo-mixin;
         }
 
         p {
-            font-size: 20px;
-            width: 100%;
-            margin-top: -15px;
+            @include p-mixin;
         }
 
-        a{
-            background: black;
-            padding: 5px;
-            color: $colorSecundario;
-            border-radius: 5px;
-            text-decoration: none;
+        a {
+            @include a-mixin;
         }
 
-        a:hover{
+        a:hover {
             background-color: $colorPrincipal;
         }
     }
@@ -72,7 +61,7 @@ body {
 
 .gridContainer2 {
     display: flex;
-    background-color:$colorSecundario;
+    background-color: $colorSecundario;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     height: 550px;
@@ -88,34 +77,23 @@ body {
         border: 4px solid black;
 
         .imagenMedidas2 {
-            width: 350px;
-            height: 220px;
-            margin: 25px;            
+            @include imagenesMedidas-mixin;
         }
 
         .titulo2 {
-            font-size: 25px;
-            margin-top: 10px;
-            background-color: black;
-            color: $colorSecundario;
+            @include titulo-mixin;
         }
 
         p {
-            font-size: 20px;
-            width: 100%;
-            margin-top: -15px;
+            @include p-mixin;
         }
 
-        a{
-            background: black;
-            padding: 5px;
-            color:$colorSecundario;
-            border-radius: 5px;
-            text-decoration: none;
+        a {
+            @include a-mixin;
         }
 
-        a:hover{
-            background-color:$colorPrincipal;
+        a:hover {
+            background-color: $colorPrincipal;
         }
 
     }
@@ -123,7 +101,7 @@ body {
 
 .gridContainer3 {
     display: flex;
-    background-color:$colorSecundario;
+    background-color: $colorSecundario;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     height: 450px;
@@ -138,34 +116,23 @@ body {
         border: 4px solid black;
 
         .imagenMedidas3 {
-            width: 350px;
-            height: 220px;
-            margin: 25px;        
+            @include imagenesMedidas-mixin;
         }
 
         .titulo3 {
-            font-size: 25px;
-            margin-top: 10px;
-            background-color: black;
-            color:$colorSecundario;
+            @include titulo-mixin;
         }
 
         p {
-            font-size: 20px;
-            width: 100%;
-            margin-top: -15px;
-        }
-        
-        a{
-            background: black;
-            padding: 5px;
-            color:$colorSecundario;
-            border-radius: 5px;
-            text-decoration: none;
+            @include p-mixin;
         }
 
-        a:hover{
-            background-color:$colorPrincipal;
+        a {
+            @include a-mixin;
+        }
+
+        a:hover {
+            background-color: $colorPrincipal;
         }
     }
 }
@@ -203,7 +170,7 @@ body {
     .sobreNosotros {
         width: 75%;
         font-size: 30px;
-        color:$colorSecundario;
+        color: $colorSecundario;
         background-color: $colorPrincipal;
         height: auto;
         padding: 10px;
@@ -233,7 +200,7 @@ body {
     text-align: center;
     justify-content: center;
     padding: 0px 50px;
-    margin-top: 100px;
+
 
     .sucursalesConteiner {
         background-color: $colorPrincipal;
@@ -306,7 +273,7 @@ body {
     }
 
     .control {
-        background-color:$colorSecundario;
+        background-color: $colorSecundario;
         padding: 10px;
         border-radius: 5px;
         margin-bottom: 20px;
@@ -326,7 +293,7 @@ body {
     }
 
     .consulta {
-        background-color:$colorSecundario;
+        background-color: $colorSecundario;
         padding: 10px;
         border-radius: 5px;
         margin-bottom: 20px;
@@ -335,7 +302,7 @@ body {
         font-family: 'Times New Roman', Times, serif;
         font-size: 20px;
         width: 405px;
-        height: 100px;    
+        height: 200px;
     }
 
 
