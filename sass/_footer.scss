@@ -6,7 +6,7 @@
     background: linear-gradient(black,$colorPrincipal);
 
     h3 {
-        font-size: 25px;
+        font-size: $footerMedida+10px ;
         justify-content: center;
         display: flex;
         color: white;

@@ -35,7 +35,7 @@ body {
   background: linear-gradient(black, rgb(64, 2, 2));
 }
 .containerFooter h3 {
-  font-size: 25px;
+  font-size: 15 px10px;
   justify-content: center;
   display: flex;
   color: white;
