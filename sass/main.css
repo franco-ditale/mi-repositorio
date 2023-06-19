@@ -3,6 +3,8 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+/* colores */
+/* operaciones */
 /* Menu Y Footer para todos */
 .navBar {
   display: flex;
@@ -41,16 +43,31 @@ body {
   margin-bottom: 10px;
 }
 .containerFooter p {
-  font-size: 15px;
+  font-size: 15 px;
   display: flex;
   color: white;
   margin-top: 20px;
 }
-.containerFooter li {
-  list-style: none;
+.containerFooter .footerNav ul {
+  margin-left: -35px;
 }
-.containerFooter li a {
-  font-size: 15px;
+.containerFooter .footerNav ul li {
+  list-style: none;
+  text-align: center;
+}
+.containerFooter .footerNav ul li a {
+  font-size: 15 px;
+  color: white;
+}
+.containerFooter .footer-redes ul {
+  margin-left: -20px;
+}
+.containerFooter .footer-redes ul li {
+  list-style: none;
+  text-align: center;
+}
+.containerFooter .footer-redes ul li a {
+  font-size: 15 px;
   color: white;
 }
 
@@ -61,7 +78,6 @@ body {
 }
 .carousel .d-block {
   margin: 0px;
-  height: 600px;
 }
 
 .gridContainer {
@@ -196,7 +212,7 @@ body {
 }
 
 .parrafoInicio {
-  font-size: 30px;
+  font-size: 22px;
   width: 85%;
   margin: auto;
   color: #FFFFFF;
@@ -224,7 +240,7 @@ body {
 }
 .parrafoConteiner .sobreNosotros {
   width: 75%;
-  font-size: 30px;
+  font-size: 22px;
   color: #FFFFFF;
   background-color: rgb(64, 2, 2);
   height: auto;
@@ -326,6 +342,11 @@ body {
   border: solid 1px;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
+  transition: all 1s;
+}
+.formulario .control:focus {
+  background-color: black;
+  color: white;
 }
 .formulario .boton {
   width: 100%;
@@ -334,6 +355,10 @@ body {
   color: #FFFFFF;
   height: 50px;
   border-radius: 5px;
+}
+.formulario .boton:focus {
+  background-color: white;
+  color: black;
 }
 .formulario .consulta {
   background-color: #FFFFFF;
@@ -346,6 +371,11 @@ body {
   font-size: 20px;
   width: 405px;
   height: 200px;
+  transition: all 1s;
+}
+.formulario .consulta:focus {
+  background-color: black;
+  color: white;
 }
 
 /* inicio */

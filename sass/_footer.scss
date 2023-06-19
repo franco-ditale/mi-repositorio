@@ -15,19 +15,44 @@
     }
 
     p {
-        font-size: 15px;
+        font-size: $footerMedida;
         display: flex;
         color: white;
         margin-top: 20px;
 
     }
 
-    li{ 
-        list-style: none;
-        a {
-            font-size: 15px;
-            color: white;       
-        } 
+
+    .footerNav {
+        ul {
+            margin-left: -35px;
+
+            li {
+                list-style: none;
+                text-align: center;
+
+                a {
+                    font-size: $footerMedida;
+                    color: white;
+                }
+            }
+        }
+
     }
-    
+
+    .footer-redes{
+        ul {
+            margin-left: -20px;
+
+            li {
+                list-style: none;
+                text-align: center;
+
+                a {
+                    font-size: $footerMedida;
+                    color: white;
+                }
+            }
+        }
+    }
 }
