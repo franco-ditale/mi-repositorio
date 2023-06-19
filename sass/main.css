@@ -10,8 +10,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(64, 2, 2);
   padding: 15px;
+  background: linear-gradient(black, rgb(64, 2, 2));
 }
 .navBar h1 {
   font-size: 45px;
@@ -28,12 +28,11 @@ body {
 }
 
 .containerFooter {
-  background-color: rgb(64, 2, 2);
-  color: black;
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
   margin-top: 50px;
+  background: linear-gradient(black, rgb(64, 2, 2));
 }
 .containerFooter h3 {
   font-size: 25px;
@@ -489,7 +488,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-right: 35px;
+    margin-right: -10px;
     list-style: none;
   }
   .containerFooter .footerNav ul a {
@@ -500,7 +499,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-right: 35px;
+    margin-right: 5px;
     list-style: none;
   }
   .containerFooter .footer-redes ul a {
@@ -567,7 +566,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-right: 35px;
+    margin-right: -10px;
     list-style: none;
   }
   .containerFooter .footerNav ul a {
@@ -578,7 +577,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-right: 35px;
+    margin-right: 5px;
     list-style: none;
   }
   .containerFooter .footer-redes ul a {
@@ -635,7 +634,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-right: 35px;
+    margin-right: -10px;
     list-style: none;
   }
   .containerFooter .footerNav ul a {
@@ -646,7 +645,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-right: 35px;
+    margin-right: 5px;
     list-style: none;
   }
   .containerFooter .footer-redes ul a {
@@ -727,7 +726,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-right: 35px;
+    margin-right: -10px;
     list-style: none;
   }
   .containerFooter .footerNav ul a {
@@ -738,7 +737,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-right: 35px;
+    margin-right: 5px;
     list-style: none;
   }
   .containerFooter .footer-redes ul a {
@@ -803,7 +802,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-right: 35px;
+    margin-right: -10px;
     list-style: none;
   }
   .containerFooter .footerNav ul a {
@@ -814,7 +813,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-right: 35px;
+    margin-right: 5px;
     list-style: none;
   }
   .containerFooter .footer-redes ul a {
