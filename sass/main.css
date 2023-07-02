@@ -670,7 +670,6 @@ body {
     margin-top: 100px;
   }
   .container .imagen {
-    width: 200px;
     height: 150px;
     border: 1px black solid;
     margin: 0px;
@@ -678,29 +677,12 @@ body {
   }
   .container .txt-1 {
     background-color: black;
-    width: 200px;
-    margin: 0 9px;
-    border: 5px black;
+    margin: 0;
+    border: 1px black;
     font-size: 20px;
     height: auto;
     width: 90%;
     padding: 10px;
-  }
-  .imagen {
-    width: 200px;
-    height: 150px;
-    border: 1px black solid;
-    margin: 0px;
-    width: 90%;
-  }
-  .txt-1 {
-    background-color: black;
-    width: 200px;
-    margin: 0 9px;
-    border: 5px black;
-    font-size: 20px;
-    height: auto;
-    width: 90%;
   }
   .containerFooter {
     display: flex;
