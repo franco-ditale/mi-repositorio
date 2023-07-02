@@ -139,13 +139,14 @@ body {
 
 
 .parrafoInicio {
-    font-size: 22px;
+    font-size: 20px;
     width: 85%;
     margin: auto;
     color: $colorSecundario;
     text-align: center;
     background-color: $colorPrincipal;
     padding: 10px;
+    margin-top: 40px;
 }
 
 /* nosotros */
@@ -169,7 +170,7 @@ body {
 
     .sobreNosotros {
         width: 75%;
-        font-size: 22px;
+        font-size: 2px;
         color: $colorSecundario;
         background-color: $colorPrincipal;
         height: auto;
@@ -247,7 +248,7 @@ body {
     height: auto;
     margin: -100px 118px;
     border: 10px black solid;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     display: flex;
     justify-content: center;
