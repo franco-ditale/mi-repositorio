@@ -292,9 +292,14 @@ body {
 }
 
 /* novedades */
+.container {
+  margin-top: 100px;
+  margin-bottom: 90px;
+}
+
 .imagen {
   width: 100%;
-  height: 330px;
+  height: 440px;
   margin: 0;
   border: solid 10px black;
   display: inline;
@@ -308,7 +313,7 @@ body {
   width: 100%;
   height: auto;
   border: 10px black solid;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -462,7 +467,6 @@ body {
   .parrafoInicio {
     font-size: 25px;
     padding: 20px;
-    margin-right: 30px;
   }
   .containerFooter {
     display: flex;
@@ -470,7 +474,7 @@ body {
     flex-direction: column;
   }
   .containerFooter h3 {
-    font-size: 30px;
+    font-size: 25px;
     justify-content: center;
     display: flex;
   }
@@ -547,7 +551,7 @@ body {
     flex-direction: column;
   }
   .containerFooter h3 {
-    font-size: 30px;
+    font-size: 25px;
     justify-content: center;
     display: flex;
   }
@@ -615,7 +619,7 @@ body {
     flex-direction: column;
   }
   .containerFooter h3 {
-    font-size: 30px;
+    font-size: 25px;
     justify-content: center;
     display: flex;
   }
@@ -667,21 +671,22 @@ body {
   }
   .container {
     margin-top: 100px;
-  }
-  .container .imagen {
-    height: 150px;
-    border: 1px black solid;
-    margin: 0px;
-    width: 90%;
-  }
-  .container .txt-1 {
-    background-color: black;
-    margin: 0;
-    border: 1px black;
-    font-size: 20px;
-    height: auto;
-    width: 90%;
-    padding: 10px;
+    /* .imagen {
+        height: 150px;
+        border: 1px black solid;
+        margin: 0px;
+        width: 90%;
+    }
+
+    .txt-1 {
+        background-color: black;
+        margin: 0 ;
+        border: 1px black;
+        font-size: 20px;
+        height: auto;
+        width: 90%;
+        padding: 10px;
+    } */
   }
   .containerFooter {
     display: flex;
@@ -689,7 +694,7 @@ body {
     flex-direction: column;
   }
   .containerFooter h3 {
-    font-size: 30px;
+    font-size: 25px;
     justify-content: center;
     display: flex;
   }
@@ -762,7 +767,7 @@ body {
     flex-direction: column;
   }
   .containerFooter h3 {
-    font-size: 30px;
+    font-size: 25px;
     justify-content: center;
     display: flex;
   }
