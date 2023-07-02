@@ -379,7 +379,7 @@ body {
 }
 
 /* inicio */
-@media (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 425px) {
   .navBar {
     display: flex;
     justify-content: center;
@@ -505,7 +505,7 @@ body {
   }
 }
 /* nosotros */
-@media (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 425px) {
   .navBar {
     display: flex;
     justify-content: center;
@@ -524,9 +524,8 @@ body {
   .centrarImagen img {
     display: flex;
     justify-content: center;
-    margin: 10px;
-    width: 400px;
-    height: 220px;
+    width: 80%;
+    height: auto;
     margin-top: 50px;
   }
   .sobreNosotros {
@@ -539,9 +538,9 @@ body {
   .imagenTexto .imagenAbajo {
     margin: 0;
     margin-top: 50px;
-    width: 400px;
+    width: 75%;
     height: auto;
-    margin-left: 13px;
+    margin-left: 50px;
   }
   .containerFooter {
     display: flex;
@@ -583,7 +582,7 @@ body {
   }
 }
 /* sucursales */
-@media (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 425px) {
   .navBar {
     display: flex;
     justify-content: center;
@@ -608,7 +607,7 @@ body {
     margin-top: -25px;
   }
   .sucursalesConteinerGeneral .sucursalesConteiner {
-    width: 350px;
+    width: 95%;
     margin-top: 75px;
   }
   .containerFooter {
@@ -622,7 +621,7 @@ body {
     display: flex;
   }
   .containerFooter p {
-    font-size: 20px;
+    font-size: 17px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -651,7 +650,7 @@ body {
   }
 }
 /* novedades */
-@media (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 425px) {
   .navBar {
     display: flex;
     justify-content: center;
@@ -743,7 +742,7 @@ body {
   }
 }
 /* contacto */
-@media (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 425px) {
   .navBar {
     display: flex;
     justify-content: center;
@@ -760,8 +759,7 @@ body {
     list-style: none;
   }
   .formulario {
-    width: 350px;
-    margin: 37px;
+    width: 83%;
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -772,12 +770,10 @@ body {
     padding: 0px 10px;
   }
   .formulario .control {
-    width: 275px;
-    margin-left: -10px;
+    width: 100%;
   }
   .formulario .consulta {
-    width: 275px;
-    margin-left: -10px;
+    width: 100%;
   }
   .containerFooter {
     display: flex;
