@@ -382,7 +382,7 @@ body {
   color: white;
 }
 
-/* inicio */
+/* INICIO MOBILE */
 @media (min-width: 320px) and (max-width: 425px) {
   .navBar {
     display: flex;
@@ -507,7 +507,7 @@ body {
     font-size: 20px;
   }
 }
-/* nosotros */
+/* NOSOTROS MOBILE */
 @media (min-width: 320px) and (max-width: 425px) {
   .navBar {
     display: flex;
@@ -584,7 +584,7 @@ body {
     font-size: 20px;
   }
 }
-/* sucursales */
+/* SUCURSALES MOBILE */
 @media (min-width: 320px) and (max-width: 425px) {
   .navBar {
     display: flex;
@@ -652,7 +652,7 @@ body {
     font-size: 20px;
   }
 }
-/* novedades */
+/* NOVEDADES MOBILE */
 @media (min-width: 320px) and (max-width: 425px) {
   .navBar {
     display: flex;
@@ -671,22 +671,6 @@ body {
   }
   .container {
     margin-top: 100px;
-    /* .imagen {
-        height: 150px;
-        border: 1px black solid;
-        margin: 0px;
-        width: 90%;
-    }
-
-    .txt-1 {
-        background-color: black;
-        margin: 0 ;
-        border: 1px black;
-        font-size: 20px;
-        height: auto;
-        width: 90%;
-        padding: 10px;
-    } */
   }
   .containerFooter {
     display: flex;
@@ -727,8 +711,402 @@ body {
     font-size: 20px;
   }
 }
-/* contacto */
+/* CONTACTO MOBILE */
 @media (min-width: 320px) and (max-width: 425px) {
+  .navBar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .navBar .menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -15px;
+  }
+  .navBar .menu li {
+    list-style: none;
+  }
+  .formulario {
+    width: 83%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .formulario h5 {
+    font-size: 20px;
+    padding: 0px 10px;
+  }
+  .formulario .control {
+    width: 100%;
+  }
+  .formulario .consulta {
+    width: 100%;
+  }
+  .containerFooter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .containerFooter h3 {
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+  }
+  .containerFooter p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .containerFooter .footerNav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: -10px;
+    list-style: none;
+  }
+  .containerFooter .footerNav ul a {
+    font-size: 20px;
+  }
+  .containerFooter .footer-redes ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 5px;
+    list-style: none;
+  }
+  .containerFooter .footer-redes ul a {
+    font-size: 20px;
+  }
+}
+/* INICIO TABLET */
+@media (min-width: 426px) and (max-width: 768px) {
+  .navBar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .navBar .menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -15px;
+  }
+  .navBar .menu li {
+    list-style: none;
+  }
+  .carousel {
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    margin-right: 15px;
+  }
+  .carousel .d-block {
+    margin: 0px;
+    height: auto;
+    margin-left: 8px;
+  }
+  .gridContainer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: 0;
+  }
+  .gridContainer .gridItem {
+    width: 80%;
+    margin: auto;
+  }
+  .gridContainer .gridItem .imagenMedidas {
+    width: 70%;
+    margin-left: 25px;
+  }
+  .gridContainer .gridItem p {
+    margin-top: -20px;
+    padding-bottom: 10px;
+  }
+  .gridContainer2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: 0;
+  }
+  .gridContainer2 .gridItem2 {
+    width: 80%;
+    margin: auto;
+  }
+  .gridContainer2 .gridItem2 .imagenMedidas2 {
+    width: 70%;
+    margin-left: 25px;
+  }
+  .gridContainer2 .gridItem2 p {
+    margin-top: -20px;
+    padding-bottom: 10px;
+  }
+  .gridContainer3 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: 0;
+  }
+  .gridContainer3 .gridItem3 {
+    width: 80%;
+    margin: auto;
+  }
+  .gridContainer3 .gridItem3 .imagenMedidas3 {
+    width: 70%;
+    margin-left: 25px;
+  }
+  .gridContainer3 .gridItem3 p {
+    margin-top: -20px;
+    padding-bottom: 10px;
+  }
+  .parrafoInicio {
+    font-size: 25px;
+    padding: 20px;
+  }
+  .containerFooter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .containerFooter h3 {
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+  }
+  .containerFooter p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .containerFooter .footerNav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: -10px;
+    list-style: none;
+  }
+  .containerFooter .footerNav ul a {
+    font-size: 20px;
+  }
+}
+/* NOSOTROS TABLET */
+@media (min-width: 426px) and (max-width: 768px) {
+  .navBar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .navBar .menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -15px;
+  }
+  .navBar .menu li {
+    list-style: none;
+  }
+  .centrarImagen img {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    margin-top: 50px;
+  }
+  .sobreNosotros {
+    font-size: 30px;
+    text-align: center;
+  }
+  .imagenTexto {
+    flex-direction: row;
+  }
+  .imagenTexto .imagenAbajo {
+    margin: 30px;
+    margin-top: 60px;
+    width: 40%;
+    height: auto;
+    margin-bottom: -20px;
+  }
+  .containerFooter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .containerFooter h3 {
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+  }
+  .containerFooter p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .containerFooter .footerNav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: -10px;
+    list-style: none;
+  }
+  .containerFooter .footerNav ul a {
+    font-size: 20px;
+  }
+  .containerFooter .footer-redes ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 5px;
+    list-style: none;
+  }
+  .containerFooter .footer-redes ul a {
+    font-size: 20px;
+  }
+}
+/* SUCURSALES TABLET */
+@media (min-width: 426px) and (max-width: 768px) {
+  .navBar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .navBar .menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -15px;
+  }
+  .navBar .menu li {
+    list-style: none;
+  }
+  .sucursalesConteinerGeneral {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -25px;
+  }
+  .sucursalesConteinerGeneral .sucursalesConteiner {
+    width: 90%;
+    margin-top: 75px;
+  }
+  .containerFooter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .containerFooter h3 {
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+  }
+  .containerFooter p {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .containerFooter .footerNav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: -10px;
+    list-style: none;
+  }
+  .containerFooter .footerNav ul a {
+    font-size: 20px;
+  }
+  .containerFooter .footer-redes ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 5px;
+    list-style: none;
+  }
+  .containerFooter .footer-redes ul a {
+    font-size: 20px;
+  }
+}
+/* NOVEDADES TABLET */
+@media (min-width: 426px) and (max-width: 768px) {
+  .navBar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .navBar .menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -15px;
+  }
+  .navBar .menu li {
+    list-style: none;
+  }
+  .container {
+    margin-top: 100px;
+  }
+  .containerFooter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .containerFooter h3 {
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+  }
+  .containerFooter p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .containerFooter .footerNav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: -10px;
+    list-style: none;
+  }
+  .containerFooter .footerNav ul a {
+    font-size: 20px;
+  }
+  .containerFooter .footer-redes ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 5px;
+    list-style: none;
+  }
+  .containerFooter .footer-redes ul a {
+    font-size: 20px;
+  }
+}
+/* CONTACTOS TABLET */
+@media (min-width: 426px) and (max-width: 768px) {
   .navBar {
     display: flex;
     justify-content: center;
