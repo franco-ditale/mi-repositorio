@@ -230,7 +230,7 @@ body {
   width: 420px;
   height: 250px;
   margin-top: 100px;
-  border: 3px solid rgb(64, 2, 2);
+  border: 3px solid black;
 }
 
 .parrafoConteiner {
@@ -299,7 +299,7 @@ body {
 
 .imagen {
   width: 100%;
-  height: 440px;
+  height: 420px;
   margin: 0;
   border: solid 10px black;
   display: inline;
@@ -547,9 +547,9 @@ body {
   .imagenTexto .imagenAbajo {
     margin: 0;
     margin-top: 50px;
-    width: 75%;
+    width: 90%;
     height: auto;
-    margin-left: 50px;
+    margin-left: 19px;
   }
   .containerFooter {
     display: flex;
@@ -677,6 +677,9 @@ body {
   }
   .container {
     margin-top: 100px;
+  }
+  .container .imagen {
+    height: auto;
   }
   .containerFooter {
     display: flex;
@@ -1081,6 +1084,9 @@ body {
   .container {
     margin-top: 100px;
   }
+  .container .imagen {
+    height: auto;
+  }
   .containerFooter {
     display: flex;
     justify-content: center;
@@ -1235,7 +1241,7 @@ body {
   .gridContainer .gridItem .imagenMedidas {
     width: 70%;
     margin-left: 25px;
-    height: 165px;
+    height: auto;
   }
   .gridContainer .gridItem p {
     margin-top: -20px;
@@ -1256,7 +1262,7 @@ body {
   .gridContainer2 .gridItem2 .imagenMedidas2 {
     width: 70%;
     margin-left: 25px;
-    height: 165px;
+    height: auto;
   }
   .gridContainer2 .gridItem2 p {
     margin-top: -20px;
@@ -1277,7 +1283,7 @@ body {
   .gridContainer3 .gridItem3 .imagenMedidas3 {
     width: 70%;
     margin-left: 25px;
-    height: 165px;
+    height: auto;
   }
   .gridContainer3 .gridItem3 p {
     margin-top: -20px;

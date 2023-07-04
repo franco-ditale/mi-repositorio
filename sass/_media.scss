@@ -201,9 +201,9 @@
         .imagenAbajo {
             margin: 0;
             margin-top: 50px;
-            width: 75%;
+            width: 90%;
             height: auto;
-            margin-left: 50px
+            margin-left: 19px
         }
     }
 
@@ -358,6 +358,9 @@
 
     .container {
         margin-top: 100px;
+        .imagen{
+            height: auto;
+        }
     }
 
 
@@ -853,6 +856,9 @@
 
     .container {
         margin-top: 100px;
+        .imagen{
+            height: auto;
+        }
     }
 
 
@@ -1039,7 +1045,7 @@
             .imagenMedidas {
                 width: 70%;
                 margin-left: 25px;
-                height: 165px
+                height: auto;
                 
             }
 
@@ -1066,8 +1072,7 @@
             .imagenMedidas2 {
                 width: 70%;
                 margin-left: 25px;
-                height: 165px
-
+                height: auto;
             }
 
             p {
@@ -1093,8 +1098,7 @@
             .imagenMedidas3 {
                 width: 70%;
                 margin-left: 25px;
-                height: 165px
-
+                height: auto;
             }
 
             p {
