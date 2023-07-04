@@ -423,10 +423,12 @@ body {
   .gridContainer .gridItem .imagenMedidas {
     width: 70%;
     margin-left: 25px;
+    height: auto;
   }
   .gridContainer .gridItem p {
     margin-top: -20px;
     padding-bottom: 10px;
+    font-size: 18px;
   }
   .gridContainer2 {
     display: flex;
@@ -441,10 +443,12 @@ body {
   .gridContainer2 .gridItem2 .imagenMedidas2 {
     width: 70%;
     margin-left: 25px;
+    height: auto;
   }
   .gridContainer2 .gridItem2 p {
     margin-top: -20px;
     padding-bottom: 10px;
+    font-size: 18px;
   }
   .gridContainer3 {
     display: flex;
@@ -459,10 +463,12 @@ body {
   .gridContainer3 .gridItem3 .imagenMedidas3 {
     width: 70%;
     margin-left: 25px;
+    height: auto;
   }
   .gridContainer3 .gridItem3 p {
     margin-top: -20px;
     padding-bottom: 10px;
+    font-size: 18px;
   }
   .parrafoInicio {
     font-size: 25px;
@@ -822,6 +828,7 @@ body {
   .gridContainer .gridItem {
     width: 80%;
     margin: auto;
+    height: auto;
   }
   .gridContainer .gridItem .imagenMedidas {
     width: 70%;
@@ -831,6 +838,7 @@ body {
   .gridContainer .gridItem p {
     margin-top: -20px;
     padding-bottom: 10px;
+    font-size: 20px;
   }
   .gridContainer2 {
     display: flex;
@@ -842,6 +850,7 @@ body {
   .gridContainer2 .gridItem2 {
     width: 80%;
     margin: auto;
+    height: auto;
   }
   .gridContainer2 .gridItem2 .imagenMedidas2 {
     width: 70%;
@@ -851,6 +860,7 @@ body {
   .gridContainer2 .gridItem2 p {
     margin-top: -20px;
     padding-bottom: 10px;
+    font-size: 20px;
   }
   .gridContainer3 {
     display: flex;
@@ -862,6 +872,7 @@ body {
   .gridContainer3 .gridItem3 {
     width: 80%;
     margin: auto;
+    height: auto;
   }
   .gridContainer3 .gridItem3 .imagenMedidas3 {
     width: 70%;
@@ -871,6 +882,7 @@ body {
   .gridContainer3 .gridItem3 p {
     margin-top: -20px;
     padding-bottom: 10px;
+    font-size: 20px;
   }
   .parrafoInicio {
     font-size: 25px;
@@ -1218,6 +1230,7 @@ body {
   .gridContainer .gridItem {
     width: 80%;
     margin: auto;
+    height: auto;
   }
   .gridContainer .gridItem .imagenMedidas {
     width: 70%;
@@ -1227,6 +1240,7 @@ body {
   .gridContainer .gridItem p {
     margin-top: -20px;
     padding-bottom: 10px;
+    font-size: 18px;
   }
   .gridContainer2 {
     display: flex;
@@ -1237,6 +1251,7 @@ body {
   .gridContainer2 .gridItem2 {
     width: 80%;
     margin: auto;
+    height: auto;
   }
   .gridContainer2 .gridItem2 .imagenMedidas2 {
     width: 70%;
@@ -1246,6 +1261,7 @@ body {
   .gridContainer2 .gridItem2 p {
     margin-top: -20px;
     padding-bottom: 10px;
+    font-size: 18px;
   }
   .gridContainer3 {
     display: flex;
@@ -1256,6 +1272,7 @@ body {
   .gridContainer3 .gridItem3 {
     width: 80%;
     margin: auto;
+    height: auto;
   }
   .gridContainer3 .gridItem3 .imagenMedidas3 {
     width: 70%;
@@ -1265,6 +1282,7 @@ body {
   .gridContainer3 .gridItem3 p {
     margin-top: -20px;
     padding-bottom: 10px;
+    font-size: 18px;
   }
   .parrafoInicio {
     font-size: 25px;
